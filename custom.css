@@ -1,0 +1,267 @@
+custom-css
+
+Kayako Custom CSS
+
+.heading, h1, h2, h3, h4 {
+	color: #a6aab0;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.header__top {
+	background-color: #1D2220;
+	border-bottom: 0px solid #d1d5d7;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+	padding: 0 2.5%;
+	position: relative;
+}
+
+.container {
+	background-color: #1D2220;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	padding-bottom: 3em;
+}
+
+.footer {
+	background-color: #1D2220;
+	border-top: 0px solid #dfe4e6;
+	clear: both;
+	color: #acb9bf;
+	font-size: 12px;
+	padding: 2em 1em;
+	text-align: center;
+}
+
+.search--home, .search--self {
+	background-color: #1D2220;
+	border-bottom: 0px solid #dfe4e6;
+}
+
+.textfield__label {
+	color: #fff;
+	display: block;
+	font-weight: 600;
+	line-height: 1.8;
+	margin-bottom: 0.2em;
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+
+.inputaddon__field {
+	background-color: transparent;
+	-webkit-box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.04);
+	box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.04);
+	float: left;
+	min-height: 30px;
+	overflow: hidden;
+	padding: 0 0 0 0.7em;
+	-webkit-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+button, input, optgroup, select, textarea {
+	color: #fff;
+	font: inherit;
+	margin: 0;
+
+}
+
+.textfield {
+	background-color: #1D2220;
+	border: 1px solid #d1d5d7;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 1px 1.732px 1px 0px rgba(0, 0, 0, 0.04);
+	box-shadow: inset 1px 1.732px 1px 0px rgba(0, 0, 0, 0.04);
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 0.3em;
+	padding: 0.4em 0.7em;
+	width: 100%;
+	-webkit-transition: border 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	/* transition: border 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; */
+	/* transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+	transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+.ruled {
+	border-bottom: 0px solid #dfe4e6;
+	margin-bottom: 1em;
+	padding-bottom: 1.2em;
+}
+
+html {
+	color: #fff;
+	font-family: "Source Sans Pro", sans-serif;
+	font-feature-settings: "kern","liga";
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.u-muted {
+	color: #fff;
+}
+
+
+.signin-link, .signin-link--wide, .signin-link--toast, .graybar--slim {
+	background-color: transparent;
+}
+
+.home-category[role="admin"]:hover {
+	background-color: transparent;
+}
+
+.select-form__block > * a:hover, .select-form__block > * a:active {
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.file-btn::after {
+	background: transparent;
+
+}
+
+.file-btn {
+	background: transparent;
+
+}
+
+.dd--open {
+
+	background-color: #1D2220;
+}
+
+.dd__link {
+
+	background-color: #1D2220;
+}
+
+.select, .drill-default {
+	background-color: #1D2220;
+	background-image: none;
+	background-image: none;
+	color: #fff;
+
+
+
+.drill-default.drill-focus {
+	background-image: none;
+	background-image: none;
+	border-color: transparent;
+	color: #fff;
+	
+}
+
+.select:focus, .drill-default:focus {
+	background: #1D2220;
+	background-image: none;
+	background-image: none;
+	color: #fff;
+
+}
+
+
+.button--primary {
+	background-color: #24FE72;
+
+}
+
+.loader-overlay {
+	background-color: #1D2220;
+
+}
+
+
+.admin-bar--gray {
+	background-color: transparent;
+}
+
+.color--texthead {
+	color: #fff;
+}
+
+.admin-bar--blue {
+	background-color: #1D2220;
+}
+
+.textfield--heading {
+
+	color: #FFF;
+
+}
+
+textarea {
+	color: #fff;
+
+	background-color: transparent;
+}
+
+.signin-link, .signin-link--wide, .signin-link--toast, .graybar--slim {
+	color: #fff;
+	font-size: 14px;
+}
+
+.nav__menu a {
+	color: #fff;
+
+}
+
+.nav__menu {
+	background-color: #1D2220;
+
+}
+
+.fieldset__legend {
+	color: #fff;
+
+}
+
+
+.menu__truncate {
+
+	background-color: transparent;
+}
+
+.autocomplete {
+
+	background-color: transparent;
+
+}
+
+.text-core .text-button {
+	background: #7d5c5c;
+	border-radius: 11px;
+	
+}
+
+.menu__link.active {
+	background-color: transparent;
+}
+
+.deflist {
+	color: #fff;
+}
+
+.rc-anchor-light {
+	background: transparent;
+	color: #fff;
+}
+
+.rc-anchor-light .rc-anchor-logo-text {
+	color: #FFF;
+}
+
+.rc-anchor-light .rc-anchor-pt a:link, .rc-anchor-light .rc-anchor-pt a:visited {
+	color: #FFF;
+}
+
+
+
