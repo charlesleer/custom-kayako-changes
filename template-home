@@ -1,0 +1,44 @@
+<div class="search--home sm-max-hide">
+
+
+
+{%if current_user is defined %}
+	<h1 class="u-textcenter heading heading--kilo">{{ phrase('home.search.heading') }}</h1>
+	{{ search|raw }}
+{%endif%}
+</div>
+
+
+
+{%if current_user is not defined %}
+  <p>
+	<h1 class="u-textcenter heading heading--kilo">Welcome to Wirepas Support</h1>
+	<br>
+	<h3 class="u-textcenter">Please sign-in if you have an account.</h3>
+	</p>
+ 
+
+	
+
+	
+	
+{%endif%}
+
+
+<div class="wrap wrap--body">
+	<section class="u-mzero">
+		{{ conversations|raw }}
+	</section>
+
+	<section>
+		{{ categories_list|raw }}
+	</section>
+
+	<section>
+		{{ community|raw }}
+	</section>
+
+	<section class="sm-max-hide">
+		{{ twitter|raw }}
+	</section>
+</div>
