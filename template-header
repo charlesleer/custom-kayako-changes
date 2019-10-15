@@ -1,0 +1,28 @@
+<div class="branding">
+	<a href="{{ URL }}" title="{{ phrase('header.logo.title') }}">
+		<img class="branding__logo flex-item" src="{{ ROOT }}/api/v1/logo/render?{{ helpcenter_updated_at }}" alt="{{ helpcenter_name }}">
+	</a>
+</div>
+
+
+<div class="header__right">
+
+	{{ header_search|raw }}
+
+	<div class="menu">
+
+		{{ language_menu|raw }}
+
+
+  {%if current_user is defined %}
+
+  <a class="menu__submit sm-max-hide" href="{{ URL }}/conversation/new">{{ phrase('header.menu.startconversation') }}</a>
+
+  {%endif%}
+
+
+
+		{{ user_menu|raw }}
+
+	</div>
+</div>
