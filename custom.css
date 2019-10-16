@@ -263,5 +263,11 @@ textarea {
 	color: #FFF;
 }
 
+	textarea {
+	color: #fff;
+	font: inherit;
+	margin: 0;
+	background-color: transparent;
+}
 
 
