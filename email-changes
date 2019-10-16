@@ -1,0 +1,24 @@
+Remove the Kayako Email Footer from various email templates.
+
+
+#REPLY
+
+    <!-- Email Footer : BEGIN -->
+    <div class="x-gmail-data-detectors" style="width: 100%; font-size: 13px; color: #838D94; border-top: 2px solid #ddd; padding-top: 10px; margin-top: 10px; text-align: right;">
+        Sent with <b><a href="https://kayako.com" target="_blank" rel="noopener noreferrer">Kayako</a></b> -->
+    </div> 
+    <!-- Email Footer : END -->
+
+
+
+#Notification
+
+{{ footer }}
+
+
+
+#SURVEY
+
+	<tfoot>
+		{{ footer|raw }}
+	</tfoot>
